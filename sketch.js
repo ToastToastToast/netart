@@ -1,3 +1,8 @@
+var img;
+function preload(){
+  img = loadImage("sketch/dog.png");
+}
+
 
 function mousePressed(){
  //variables
@@ -7,7 +12,7 @@ function mousePressed(){
 
 function setup() {
 createCanvas(600,600);
-
+image(img,0,0);
 }
 
 function draw() {
