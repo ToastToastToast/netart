@@ -52,5 +52,5 @@ ellipse(50,50,80,50);
   //Triangle6 x1 y1, x2 y2, x3 y3
   triangle(300,380,350,454,470,467);
 
-image(img, 0, 0);
+image(img, -30, 200);
 }
